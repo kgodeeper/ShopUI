@@ -16,4 +16,3 @@ document.querySelector('html').addEventListener('click',(event)=>{
           catelist.classList.add('d-none');
      }
 })
-

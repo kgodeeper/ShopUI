@@ -13,7 +13,7 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 <body>
-     <div class="page-navigator bg-dark-primary py-2 d-flex justify-content-between align-items-center">
+     <div class="page-navigator w-100 position-fixed top-0 start-0 bg-dark-primary py-2 d-flex justify-content-between align-items-center">
           <div class="page-brand">
                <p class="bold m-0 text-white">MyShop.</p>
           </div>
@@ -21,9 +21,18 @@
                <div class="navigator-feature-item">About we</div>
                <div class="navigator-feature-item">Hot</div>
                <div class="navigator-feature-item">Best sale</div>
-               <div class="category-btn navigator-feature-item d-flex align-items-center">
+               <div class="category-btn position-relative navigator-feature-item d-flex align-items-center">
                     <p class="m-0">Category</p>
                     <i class="fas px-1 fa-angle-down"></i>
+                    <div class="category-list d-none position-absolute top-100 start-0">
+                         <ul>
+                              <li>For Men</li>
+                              <li>For woman</li>
+                              <li>Increase the height</li>
+                              <li>Sport</li>
+                              <li>Leather shoes</li>
+                         </ul>
+                    </div>
                </div>
           </div>
           <div class="navigator-links text-white d-flex align-items-center">
